@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
 
-// 콘솔 창 옵션
-int console() {
-    system("mode con cols = 43 line = 33"); // 가로 43, 세로 33 콘솔 창 지정
-}
 int drink[5] = {10,10,10,10,10}; // 자판기 내 음료 재고 갯수
 int price[5] = {1000,800,900,1000,1000}; // 음료의 가격
 char *drinkName[5] = {"코카콜라","레쓰비","암바사","스프라이트","환타"}; // 음료 종류
