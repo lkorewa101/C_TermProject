@@ -196,6 +196,7 @@ int afterBuy() {
     Sleep(2500);
 }
 
+// 세부 옵션
 int option(char choose) { // 거스름돈 반환
     if(choose == 'q' || choose == 'Q') {
         printf("거스름돈: %d원\n", money);
